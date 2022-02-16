@@ -11,7 +11,11 @@ function replaceTile (tile: Image, image2: Image, kind: number) {
         //tiles.setTileAt(t, img `playerimagejump`)
     }
 }
- sprites.onOverlap (playersprite,fireimage,'fire1');Life(-1);pause(100)
+function firedamage (
+     sprites,onOverlap = playersprite, fireimage);
+     Life(-1); pause(100)
+)
+
  
 function startlevel (level: number) {
     tiles.setTilemap(tilemap`level1`)
